@@ -1,0 +1,28 @@
+{"Header":{"ReportName":"ProfitAndLossDetail","ReportBasis":"Accrual","StartPeriod":"2024-01-01","EndPeriod":"2024-12-31"},
+ "Columns":{"Column":[
+  {"ColTitle":"Date","ColType":"Date","MetaData":[{"Name":"ColKey","Value":"tx_date"}]},
+  {"ColTitle":"Transaction Type","ColType":"String","MetaData":[{"Name":"ColKey","Value":"txn_type"}]},
+  {"ColTitle":"No.","ColType":"String","MetaData":[{"Name":"ColKey","Value":"doc_num"}]},
+  {"ColTitle":"Name","ColType":"String","MetaData":[{"Name":"ColKey","Value":"name"}]},
+  {"ColTitle":"Amount","ColType":"Money","MetaData":[{"Name":"ColKey","Value":"subt_nat_amount"}]}]},
+ "Rows":{"Row":[
+  {"Header":{"ColData":[{"value":"Income"}]},"Rows":{"Row":[
+    {"Header":{"ColData":[{"value":"Services","id":"1"}]},"Rows":{"Row":[
+      {"ColData":[{"value":"2024-03-01"},{"value":"Invoice","id":"130"},{"value":"1001"},{"value":"Acme","id":"1"},{"value":"1000.00"}],"type":"Data"},
+      {"ColData":[{"value":"2024-04-01"},{"value":"Invoice","id":"131"},{"value":"1002"},{"value":"Acme","id":"1"},{"value":"500.00"}],"type":"Data"},
+      {"ColData":[{"value":"2024-05-01"},{"value":"Credit Memo","id":"140"},{"value":"1003"},{"value":"Acme","id":"1"},{"value":"-100.00"}],"type":"Data"},
+      {"ColData":[{"value":"2024-06-01"},{"value":"Invoice","id":"999"},{"value":"1099"},{"value":"Ghost","id":"9"},{"value":"0.00"}],"type":"Data"}
+    ]},"Summary":{"ColData":[{"value":"Total for Services"},{"value":""},{"value":""},{"value":""},{"value":"1400.00"}]},"type":"Section"}
+  ]},"type":"Section","group":"Income"},
+  {"Header":{"ColData":[{"value":"Expenses"}]},"Rows":{"Row":[
+      {"ColData":[{"value":"2024-02-01"},{"value":"Expense","id":"107"},{"value":""},{"value":"Staples","id":"3"},{"value":"100.00"}],"type":"Data"},
+      {"ColData":[{"value":"2024-02-05"},{"value":"Credit Card Credit","id":"109"},{"value":""},{"value":"Staples","id":"3"},{"value":"-20.00"}],"type":"Data"},
+      {"ColData":[{"value":"2024-02-10"},{"value":"Bill","id":"90"},{"value":""},{"value":"Hydro","id":"4"},{"value":"50.00"}],"type":"Data"},
+      {"ColData":[{"value":"2024-02-11"},{"value":"Vendor Credit","id":"91"},{"value":""},{"value":"Hydro","id":"4"},{"value":"-10.00"}],"type":"Data"},
+      {"ColData":[{"value":"2024-12-31"},{"value":"Journal Entry","id":"200"},{"value":""},{"value":""},{"value":"300.00"}],"type":"Data"},
+      {"ColData":[{"value":"2024-07-01"},{"value":"Inventory Qty Adjust","id":"5"},{"value":""},{"value":""},{"value":"0.00"}],"type":"Data"}
+  ]},"type":"Section","group":"Expenses"},
+  {"Header":{"ColData":[{"value":"Other Income"}]},"Rows":{"Row":[
+      {"ColData":[{"value":"2024-08-01"},{"value":"Deposit","id":"300"},{"value":""},{"value":""},{"value":"12.34"}],"type":"Data"}
+  ]},"type":"Section","group":"OtherIncome"}
+ ]}}

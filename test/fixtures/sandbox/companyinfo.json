@@ -1,0 +1,32 @@
+{
+  "CompanyInfo": {
+    "CompanyName": "Sandbox Company_CA_1",
+    "LegalName": "Sandbox Company_CA_1",
+    "CompanyAddr": {
+      "Id": "1",
+      "Line1": "123 Sierra Way",
+      "City": "Toronto",
+      "Country": "CA",
+      "CountrySubDivisionCode": "ON",
+      "PostalCode": "M5V 2T6"
+    },
+    "Country": "CA",
+    "FiscalYearStartMonth": "January",
+    "SupportedLanguages": "en",
+    "NameValue": [
+      { "Name": "NeoEnabled", "Value": "true" },
+      { "Name": "IndustryType", "Value": "Professional services" },
+      { "Name": "QBOIndustryType", "Value": "Professional services" },
+      { "Name": "OfferingSku", "Value": "QuickBooks Online Essentials" }
+    ],
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "1",
+    "SyncToken": "4",
+    "MetaData": {
+      "CreateTime": "2026-10-01T09:12:44-07:00",
+      "LastUpdatedTime": "2026-10-20T11:03:12-07:00"
+    }
+  },
+  "time": "2026-10-31T17:20:05.123-07:00"
+}

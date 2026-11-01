@@ -1,0 +1,6 @@
+{"Header":{"ReportName":"AgedReceivables","DateMacro":"today","Currency":"CAD"},
+ "Columns":{"Column":[{"ColTitle":"","ColType":"Customer"},{"ColTitle":"Current","ColType":"Money"},{"ColTitle":"1 - 30","ColType":"Money"},{"ColTitle":"31 - 60","ColType":"Money"},{"ColTitle":"61 - 90","ColType":"Money"},{"ColTitle":"91 and over","ColType":"Money"},{"ColTitle":"Total","ColType":"Money"}]},
+ "Rows":{"Row":[
+  {"ColData":[{"value":"Acme","id":"1"},{"value":""},{"value":""},{"value":""},{"value":""},{"value":"490.00"},{"value":"490.00"}]},
+  {"Summary":{"ColData":[{"value":"TOTAL"},{"value":"0.00"},{"value":"0.00"},{"value":"0.00"},{"value":"0.00"},{"value":"490.00"},{"value":"490.00"}]},"type":"Section","group":"GrandTotal"}
+ ]}}

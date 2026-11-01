@@ -1,0 +1,4 @@
+{"CDCResponse":[{"QueryResponse":[
+  {"Invoice":[{"domain":"QBO","status":"Deleted","Id":"77","MetaData":{"LastUpdatedTime":"2026-10-20T09:00:00-07:00"}},{"Id":"131","SyncToken":"2","TotalAmt":565.00,"MetaData":{"LastUpdatedTime":"2026-10-21T09:00:00-07:00"}}],"startPosition":1,"maxResults":2},
+  {"Customer":[{"domain":"QBO","status":"Deleted","Id":"5","MetaData":{"LastUpdatedTime":"2026-10-22T09:00:00-07:00"}}],"startPosition":1,"maxResults":1}
+]}],"time":"2026-10-31T10:00:00-07:00"}

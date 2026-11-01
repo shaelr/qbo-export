@@ -1,0 +1,6 @@
+{"Header":{"ReportName":"ProfitAndLoss","ReportBasis":"Accrual","StartPeriod":"2025-01-01","EndPeriod":"2025-12-31","Currency":"CAD"},
+ "Columns":{"Column":[{"ColTitle":"","ColType":"Account"},{"ColTitle":"Total","ColType":"Money"}]},
+ "Rows":{"Row":[
+  {"Header":{"ColData":[{"value":"Income"},{"value":""}]},"Rows":{"Row":[{"ColData":[{"value":"Services","id":"1"},{"value":"250.00"}],"type":"Data"}]},"Summary":{"ColData":[{"value":"Total Income"},{"value":"250.00"}]},"type":"Section","group":"Income"},
+  {"Summary":{"ColData":[{"value":"Net Income"},{"value":"250.00"}]},"type":"Section","group":"NetIncome"}
+ ]}}

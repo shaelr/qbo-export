@@ -1,0 +1,10 @@
+node_modules/
+.env
+*.enc.json
+*.enc.json.recovery
+secrets/
+
+# Exported archives contain sensitive financial data. Never commit them.
+archive/
+archives/
+qbo-archive*/

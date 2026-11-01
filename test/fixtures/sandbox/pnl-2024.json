@@ -1,0 +1,11 @@
+{"Header":{"Time":"2026-10-31T10:00:00-07:00","ReportName":"ProfitAndLoss","ReportBasis":"Accrual","StartPeriod":"2024-01-01","EndPeriod":"2024-12-31","SummarizeColumnsBy":"Total","Currency":"CAD"},
+ "Columns":{"Column":[{"ColTitle":"","ColType":"Account","MetaData":[{"Name":"ColKey","Value":"account"}]},{"ColTitle":"Total","ColType":"Money","MetaData":[{"Name":"ColKey","Value":"total"}]}]},
+ "Rows":{"Row":[
+  {"Header":{"ColData":[{"value":"Income"},{"value":""}]},"Rows":{"Row":[{"ColData":[{"value":"Services","id":"1"},{"value":"1400.00"}],"type":"Data"}]},"Summary":{"ColData":[{"value":"Total Income"},{"value":"1400.00"}]},"type":"Section","group":"Income"},
+  {"Summary":{"ColData":[{"value":"Gross Profit"},{"value":"1400.00"}]},"type":"Section","group":"GrossProfit"},
+  {"Header":{"ColData":[{"value":"Expenses"},{"value":""}]},"Rows":{"Row":[{"ColData":[{"value":"Office","id":"2"},{"value":"120.00"}],"type":"Data"},{"ColData":[{"value":"Depreciation","id":"5"},{"value":"300.00"}],"type":"Data"}]},"Summary":{"ColData":[{"value":"Total Expenses"},{"value":"420.00"}]},"type":"Section","group":"Expenses"},
+  {"Summary":{"ColData":[{"value":"Net Operating Income"},{"value":"980.00"}]},"type":"Section","group":"NetOperatingIncome"},
+  {"Header":{"ColData":[{"value":"Other Income"},{"value":""}]},"Rows":{"Row":[{"ColData":[{"value":"Interest income","id":"4"},{"value":"12.34"}],"type":"Data"}]},"Summary":{"ColData":[{"value":"Total Other Income"},{"value":"12.34"}]},"type":"Section","group":"OtherIncome"},
+  {"Summary":{"ColData":[{"value":"Net Other Income"},{"value":"12.34"}]},"type":"Section","group":"NetOtherIncome"},
+  {"Summary":{"ColData":[{"value":"Net Income"},{"value":"992.34"}]},"type":"Section","group":"NetIncome"}
+ ]}}
